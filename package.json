@@ -1,5 +1,5 @@
 {
-  "name": "SSR",
+  "name": "ssr_with_router",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -39,7 +39,8 @@
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1",
     "webpack-dev-server": "^3.3.1",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^1.7.2",
+    "why-did-you-update": "^1.0.6"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -52,6 +53,7 @@
     "react-redux": "^7.0.3",
     "react-router-config": "^5.0.0",
     "react-router-dom": "^5.0.0",
+    "react-router-modal": "^2.0.0-rc3",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^1.7.0"

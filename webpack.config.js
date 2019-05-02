@@ -43,10 +43,10 @@ const browserConfig = {
             chunkFilename: '[id].css',
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new HtmlWebpackPlugin({
-            template: './src/public/index.html',
-            filename: "./index.html",
-        })
+        // new HtmlWebpackPlugin({
+        //     template: './src/public/index.html',
+        //     filename: "./index.html",
+        // })
     ]
 };
 

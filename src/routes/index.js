@@ -4,18 +4,8 @@
 import About from "../components/About";
 import App from "../components/App";
 import Home from '../components/Home';
-
-// export default () => {
-//     return(
-//         <div>
-//             <Switch>
-//                 <Route path="/" exact component={ App } />
-//                 <Route path="/about" component={ About } />
-//                 <Route path="/home" component={ Home } />
-//             </Switch>
-//         </div>
-//     );
-// };
+import Todos from '../components/Todos';
+import TodoCard from '../components/TodoCard';
 
 export default [
     {
@@ -23,12 +13,19 @@ export default [
         path: '/',
         exact: true
     },
+    // {
+    //     component: About,
+    //     path: '/about'
+    // },
     {
-        component: Home,
-        path: '/home'
+        component: Todos,
+        path: '/todos',
+        exact:true
+    
     },
-    {
-        component: About,
-        path: '/about'
-    }
+    // {
+    //     component: TodoCard,
+    //     path: '/todos/:id',
+    //     exact:true
+    // }
 ];

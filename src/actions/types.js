@@ -1,3 +1,5 @@
 export default  {
-    GET_USER_DATA :"GET_USER_DATA"
+    GET_USER_DATA :"GET_USER_DATA",
+    GET_ALL_TODOS : "GET_ALL_TODOS",
+    GET_TODO_BY_ID: "GET_TODO_BY_ID"
 }; 

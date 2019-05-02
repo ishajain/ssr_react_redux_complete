@@ -1,5 +1,6 @@
 import express from 'express';
 import {  matchRoutes } from 'react-router-config';
+import React from 'react';
 import render from './render';
 import Routes from '../routes';
 import { store } from '../store';

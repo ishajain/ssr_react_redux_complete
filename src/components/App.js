@@ -8,6 +8,7 @@ import { getUserData } from '../actions';
 import UserCard from './UserCard';
 
 class App extends React.Component{
+      
     static fetchData ({ dispatch,getState }) {
         console.log("CURRENT STATE:",  getState());
         return [dispatch(getUserData())];
@@ -28,6 +29,7 @@ class App extends React.Component{
                     (isLoading && users.length ===0 ) ? <Loading className="loading" color="#14233c" /> : users.map((user)=> <UserCard key={user.id} {...user} />)
                    
                 }
+                
             </div>
         );
     }
